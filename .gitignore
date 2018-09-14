@@ -1,0 +1,8 @@
+# ide
+/.idea/
+
+# sec
+credentials.json
+token.json
+go.sum
+
