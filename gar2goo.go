@@ -1,4 +1,4 @@
-package main
+package gar2goo
 
 import (
 	"encoding/json"
