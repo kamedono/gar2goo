@@ -22,8 +22,8 @@ type EventsCall struct {
 	headerVal  string
 }
 
-// TODO: fuck!
-func (c *EventsCall) Init() *EventsCall {
+func New() *EventsCall {
+	c := &EventsCall{}
 	c.urlParams_ = make(url.Values)
 	return c
 }
